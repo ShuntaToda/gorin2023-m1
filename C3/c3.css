@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #000;
+    background-color: #FFF;
+    transition: all 0.5s ease;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+body.night-mode {
+    color: #FFF;
+    background-color: #000;
+}
+
+.content {
+    text-align: center;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    border: solid 1px #aaa;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+

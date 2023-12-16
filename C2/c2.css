@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.content {
+    width: 460px;
+}
+
+h1 {
+    text-align: center;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0;
+}
+
+input {
+    width: 100%;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    font-weight: bold;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 1.25rem;
+    text-align: center;
+}

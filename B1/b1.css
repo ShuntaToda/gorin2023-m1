@@ -1,0 +1,20 @@
+.flex {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.flex > div{
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex > div:active{
+    border: solid black 4px;
+    background-color: yellow;
+}
+

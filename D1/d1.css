@@ -1,0 +1,20 @@
+.wrap {
+    width: fit-content;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: solid 1px #333;
+}
+
+th, td {
+    padding: .5rem;
+}
+
+th {
+    background: #ccc;
+}

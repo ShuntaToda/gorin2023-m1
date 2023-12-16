@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#dataDisplay {
+    height: 100vh;
+    overflow: auto;
+    white-space: pre-wrap;
+    font-family: monospace;
+}

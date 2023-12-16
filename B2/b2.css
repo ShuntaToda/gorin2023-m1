@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-content: center;
+}
+
+.signal {
+    align-items: center;
+    background-color: #222;
+    border-radius: 75px;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 90px;
+    justify-content: center;
+    padding: 1.5rem;
+    width: 200px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.light {
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+}
+
+.red {
+    background-color: #F00;
+    opacity: .2;
+    animation: red 8s infinite;
+    animation-delay: 5s;
+}
+
+.yellow {
+    background-color: #f0ae21;
+    opacity: .2;
+    animation: yellow 8s infinite;
+    animation-delay: 4s;
+}
+
+.green {
+    background-color: #50d61a;
+    opacity: .2;
+    animation: green 8s infinite;
+}
+
+
+@keyframes green {
+    0%{
+        opacity: 1;
+    }
+    49.9%{
+        opacity: 1;
+    }
+    50%{
+        opacity: .2;
+    }
+    100%{
+        opacity: .2;
+    }
+}
+@keyframes yellow {
+    0%{
+        opacity: 1;
+    }
+    12.4%{
+        opacity: 1;
+    }
+    12.5%{
+        opacity: .2;
+    }
+    100%{
+        opacity: .2;
+    }
+}
+@keyframes red {
+    0%{
+        opacity: 1;
+    }
+    37.4%{
+        opacity: 1;
+    }
+    37.5%{
+        opacity: .2;
+    }
+    100%{
+        opacity: .2;
+    }
+}
