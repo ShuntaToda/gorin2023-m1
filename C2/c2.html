@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>C2</title>
-    <link rel="stylesheet" href="c2.css">
+    <link rel="stylesheet" href="c2.css" />
     <script src="c2.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="content">
-        <h1>カラー変換アプリケーション</h1>
-        
-        <dl>
-            <dt>
-                <label for="color">カラー値:</label><br>
-            </dt>
-            <dd>
-                <input type="text" id="color" name="color">
-            </dd>
-        </dl>
+      <h1>カラー変換アプリケーション</h1>
 
-        <button type="button" onclick="convert()" id="convertColor">変換</button>
-        
-        <p id="result">結果は、ここに表示されます。</p>
+      <dl>
+        <dt><label for="color">カラー値:</label><br /></dt>
+        <dd>
+          <input type="text" id="color" name="color" />
+        </dd>
+      </dl>
+
+      <button type="button" onclick="convert()" id="convertColor">変換</button>
+
+      <p id="result">結果は、ここに表示されます。</p>
+
+      <div class="color-box">
+        <div class="color-box__inner"></div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
